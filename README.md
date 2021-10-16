@@ -72,4 +72,10 @@ Create Item details (for reference purposes only not implemented)
   [How to install Docker](https://docs.docker.com/install/)
   
   [How to install docker-compose](https://docs.docker.com/compose/install/) 
+ 
+ Notes:
+  - Exist a postman collection under folder doc, with *simple samples* of integration test
+    the id to create items must be uniq.
+  - The code commented in docker-compose is for developer purpose, (its slow)
+  
     

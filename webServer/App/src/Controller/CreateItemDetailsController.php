@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class CreateItemDetailsController extends AbstractController
 {
     /**
-     * @Route("/api/v1/items/{itemId}/details, name="create_item_details", methods={"POST"})
+     * @Route("/api/v1/items/{itemId}/details", name="create_item_details", methods={"POST"})
      * @param string $itemId
      * @param Request $request
      * @return JsonResponse
@@ -22,8 +22,8 @@ class CreateItemDetailsController extends AbstractController
     public function index(string $itemId,Request $request): JsonResponse
     {
         /*try{
-            //es solo para mostrar como seguiría el path para añadir detalles
-            //con el itemId verificamos que el item exista y es el que le añadimos a ItemsDetails
+            // is just to show how the path would go to add details
+             // with the itemId we verify that the item exists and is the one that we add to ItemsDetails
 
         } catch (ExceptionCatalogI $e) {
             return new JsonResponse(['Message' => $e->getMessage()], $e->getCode(),

@@ -1,5 +1,15 @@
 # Zeelo
 ## Instructions
+Get Api Status
+    - Obtaine api status
+    - Path /status
+    - HTTP Method: GET
+    
+    Request Params None
+    Response Body
+        Attribute name | Description                        |Type   |Example value
+        Message        | "Used for obtain the api status"   |string | "Status OK, you are good to go"
+    
 Create Item 
     - Create a new item in the catalog
     - Path /api/v1/items
@@ -16,7 +26,7 @@ Create Item
             Message        | Used for human confirmation, depending on the team is accepted or not  |string |'Item created successfully'
         Headers
             Content-Type| application/json
-            User-Agent  |ZEELO_CATALOG
+            User-Agent  |  ZEELO_CATALOG
             
 Create Item details (for reference purposes only not implemented)
     - Create a new item details in the catalog

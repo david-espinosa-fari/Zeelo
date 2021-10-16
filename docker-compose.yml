@@ -13,8 +13,8 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     ports:
       - '127.0.0.1:3306:3306'
-    #volumes:
-    #  - ./Db/var:/var/lib/mysql
+    volumes:
+      - ./Db/var:/var/lib/mysql
 
   webserver:
     build:
@@ -24,8 +24,8 @@ services:
     ports:
       - "8181:80"
       - "8443:443"
-    volumes:
-      - ${DOCUMENT_ROOT-./webServer/App}:/var/www
+    #volumes:
+    #  - ${DOCUMENT_ROOT-./webServer/App}:/var/www
     links:
       - mysql
     #command: "composer install"

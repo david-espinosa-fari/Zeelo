@@ -72,10 +72,13 @@ Create Item details (for reference purposes only not implemented)
   [How to install Docker](https://docs.docker.com/install/)
   
   [How to install docker-compose](https://docs.docker.com/compose/install/) 
+  
+  [How to install Postman](https://learning.postman.com/docs/getting-started/installation-and-updates/)
  
  Notes:
-  - Exist a postman collection under folder doc, with *simple samples* of integration test
+  - Exist a postman collection under folder doc, with 2 *simple samples* of integration test
     the id to create items must be uniq.
   - The code commented in docker-compose is for developer purpose, (its slow)
-  
+  - The first the process of download the docker images its slow, after that cache its made
+  - For stop the container docker-compose down 
     

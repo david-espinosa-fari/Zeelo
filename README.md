@@ -1,6 +1,7 @@
 # Zeelo
 ## Instructions
 Get Api Status
+
     - Obtaine api status
     - Path /status
     - HTTP Method: GET
@@ -11,6 +12,7 @@ Get Api Status
         Message        | "Used for obtain the api status"   |string | "Status OK, you are good to go"
     
 Create Item 
+
     - Create a new item in the catalog
     - Path /api/v1/items
     - HTTP Method: POST
@@ -28,7 +30,8 @@ Create Item
             Content-Type| application/json
             User-Agent  |  ZEELO_CATALOG
             
-Create Item details (for reference purposes only not implemented)
+Create Item details (next steps. For referense purpose)
+
     - Create a new item details in the catalog
     - Path /api/v1/items/{id}/details
     - HTTP Method: POST
@@ -37,7 +40,7 @@ Create Item details (for reference purposes only not implemented)
         Name    | Description                          | Type  | Comment    | Example value
         image   | The URL to the item cover-art        | string| -          | https://example.com/img/img.png
         author  | The author of the item               | string|    -       |  Herman Hesse
-        price   | Title of the item                    | string|-           |  5,99
+        price   | Price of the item                    | string|-           |  5,99
 
     Response 
         Body details

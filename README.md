@@ -83,5 +83,6 @@ Create Item details (next steps. For referense purpose)
     the id to create items must be uniq.
   - The code commented in docker-compose is for developer purpose, (its slow)
   - The first the process of download the docker images its slow, after that cache its made
-  - For stop the container docker-compose down 
+  - For stop the container docker-compose down
+  - The rest endpoints required by the exercise are on the path you requested
     
